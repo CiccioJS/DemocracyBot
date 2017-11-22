@@ -27,7 +27,7 @@ bot.on('message', (msg) => {
         bot.sendMessage(msg.chat.id, "Hope to see you around again, Bye");
     }
 
-    //Reply fro specific ID member federico panza: 24901304
+    //Reply fro specific ID
     const ME = 123456789; //fake id i tested with mine and work
     reply_to_message_id: msg.message_id;
     if (msg.from.id == ME) {
